@@ -20,7 +20,7 @@ const SignInForm = () => {
 
   const signInWithGoogle = async () => {
     await signInWithGooglePopup();
-    const userDocRef = await createUserDocumentFromAuth(user);
+    // const userDocRef = await createUserDocumentFromAuth(user);
     // console.log("user", user);
   };
   const resetForm = () => {
